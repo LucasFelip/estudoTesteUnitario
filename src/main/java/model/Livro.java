@@ -50,18 +50,18 @@ public class Livro {
         this.historico = historico;
     }
 
-    public boolean emprestar(){
-        if(!this.isEmprestado()){
+    public boolean emprestar() {
+        if (!this.isEmprestado()) {
             this.setEmprestado(true);
             System.out.println("Livro emprestado com sucesso");
         }
         return this.isEmprestado();
     }
 
-    public List<Emprestismo> consultarEmprestimosPorUsuario(Usuario usuario){
+    public List<Emprestismo> consultarEmprestimosPorUsuario(Usuario usuario) {
         List<Emprestismo> emprestismosPorUsuario = new ArrayList<Emprestismo>();
-        for(Emprestismo emprestismoUsuario : emprestismosPorUsuario){
-            if(emprestismoUsuario.getUsuario().equals(usuario)){
+        for (Emprestismo emprestismoUsuario : emprestismosPorUsuario) {
+            if (emprestismoUsuario.getUsuario().equals(usuario)) {
                 emprestismosPorUsuario.add(emprestismoUsuario);
             }
         }
