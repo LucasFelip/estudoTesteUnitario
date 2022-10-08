@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="Commit de inicialização de projeto de Teste Unitario">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Livro.java" afterDir="false" />
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Define Main and Service">
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664934939337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LUC-20 Define Main and Service">
+      <created>1665234144303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665234144303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,7 +70,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>
@@ -77,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit de inicialização de projeto de Teste Unitario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit de inicialização de projeto de Teste Unitario" />
+    <MESSAGE value="LUC-20 Define Main and Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Define Main and Service" />
   </component>
 </project>
