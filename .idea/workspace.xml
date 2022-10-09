@@ -8,8 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Create package model&#10;Model Usuario, Emprestismo, Livro, create and structuring">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_21_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_21_01__Changes_.xml" afterDir="false" />
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Update service EmprestimoLivro.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Emprestismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Emprestismo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" afterDir="false" />
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665088654788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LUC-20 Update service EmprestimoLivro.java">
+      <created>1665280998337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665280998337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
     <MESSAGE value="Commit de inicialização de projeto de Teste Unitario" />
     <MESSAGE value="Commit de projeto de Teste Unitario" />
     <MESSAGE value="LUC-20 Create package model&#10;Model Usuario, Emprestismo, Livro, create and structuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Create package model&#10;Model Usuario, Emprestismo, Livro, create and structuring" />
+    <MESSAGE value="LUC-20 Update service EmprestimoLivro.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Update service EmprestimoLivro.java" />
   </component>
 </project>

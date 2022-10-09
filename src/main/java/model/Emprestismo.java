@@ -48,7 +48,13 @@ public class Emprestismo {
     public List<Livro> getLivros() {
         return Collections.unmodifiableList(livros);
     }
+
     public void adiciona(Livro... livros) {
-        this.livros.addAll(Arrays.asList(livros));
+        if(livros.length < 1)
+            throw new IllegalArgumentException("A lista precisa de pelo menos um livro");
+        else if (livros.length < 3)
+            throw new IllegalArgumentException("A lista precisa de no máximo três livros");
+        else
+            this.livros.addAll(Arrays.asList(livros));
     }
 }
