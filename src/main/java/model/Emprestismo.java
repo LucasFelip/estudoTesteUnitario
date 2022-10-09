@@ -1,14 +1,17 @@
 package model;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Emprestismo {
+    private LocalDate dataEmprestimo;
+    private LocalDate dataDevolucao;
+    private LocalDate dataPrevista;
     private Usuario usuario;
-    private Date dataEmprestimo;
-    private Date dataDevolucao;
-    private Date dataPrevista;
-    private List<Livro> livros;
+    private List<Livro> livros = new ArrayList<>();
 
     public Usuario getUsuario() {
         return usuario;
@@ -18,35 +21,34 @@ public class Emprestismo {
         this.usuario = usuario;
     }
 
-    public Date getDataEmprestimo() {
+    public LocalDate getDataEmprestimo() {
         return dataEmprestimo;
     }
 
-    public void setDataEmprestimo(Date dataEmprestimo) {
+    public void setDataEmprestimo(LocalDate dataEmprestimo) {
         this.dataEmprestimo = dataEmprestimo;
     }
 
-    public Date getDataDevolucao() {
+    public LocalDate getDataDevolucao() {
         return dataDevolucao;
     }
 
-    public void setDataDevolucao(Date dataDevolucao) {
+    public void setDataDevolucao(LocalDate dataDevolucao) {
         this.dataDevolucao = dataDevolucao;
     }
 
-    public Date getDataPrevista() {
+    public LocalDate getDataPrevista() {
         return dataPrevista;
     }
 
-    public void setDataPrevista(Date dataPrevista) {
+    public void setDataPrevista(LocalDate dataPrevista) {
         this.dataPrevista = dataPrevista;
     }
 
     public List<Livro> getLivros() {
-        return livros;
+        return Collections.unmodifiableList(livros);
     }
-
-    public void setLivros(List<Livro> livros) {
-        this.livros = livros;
+    public void adiciona(Livro... livros) {
+        this.livros.addAll(Arrays.asList(livros));
     }
 }
