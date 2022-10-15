@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class EmprestimoService {
     public Emprestimo alugarLivro(Usuario usuario, Livro... livros) {
         Arrays.stream(livros).forEach(livro -> {
-            if (livro.isEmprestado() == true)
+            if (livro.isEmprestado() == true || livro.isReservado() == true)
                 throw new IllegalArgumentException("O " + livro.getTitulo() + " foi emprestado");
         });
 
