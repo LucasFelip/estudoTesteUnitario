@@ -5,7 +5,8 @@ import model.Livro;
 public class LivroBuilder {
     private Livro livro;
 
-    private LivroBuilder() { }
+    private LivroBuilder() {
+    }
 
     public static LivroBuilder umLivro() {
         LivroBuilder builder = new LivroBuilder();

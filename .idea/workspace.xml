@@ -8,10 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Update service EmprestimoLivro.java and create Utils for project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" afterDir="false" />
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 implements model and builder for test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/builder/UsuarioBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +57,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Workspace/IdeaProjects/estudoTesteUnitario",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "settings.editor.splitter.proportion": "0.3156823"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/IdeaProjects/estudoTesteUnitario&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3156823&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\IdeaProjects\estudoTesteUnitario\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LivroTest">
+    <configuration name="LivroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudoTesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.LivroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivroTest.estaEmprestado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudoTesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.LivroTest" />
+      <option name="METHOD_NAME" value="estaEmprestado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivroTest.estaReservado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudoTesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.LivroTest" />
+      <option name="METHOD_NAME" value="estaReservado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LivroTest" />
+        <item itemvalue="JUnit.LivroTest.estaEmprestado" />
+        <item itemvalue="JUnit.LivroTest.estaReservado" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665853441373</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LUC-20 implements model and builder for test">
+      <created>1665855732356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665855732356</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +217,7 @@
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java" />
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java but is not end" />
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java and create Utils for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Update service EmprestimoLivro.java and create Utils for project" />
+    <MESSAGE value="LUC-20 implements model and builder for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 implements model and builder for test" />
   </component>
 </project>
