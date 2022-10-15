@@ -1,7 +1,7 @@
 package main;
 
 public class Main {
-    public void main(Strings[] args){
+    public void main(String[] args){
 
     }
 }

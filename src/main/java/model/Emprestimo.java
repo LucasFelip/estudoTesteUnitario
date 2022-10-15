@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Emprestismo {
+public class Emprestimo {
     private LocalDate dataEmprestimo;
     private LocalDate dataDevolucao;
     private LocalDate dataPrevista;
@@ -50,11 +50,8 @@ public class Emprestismo {
     }
 
     public void adiciona(Livro... livros) {
-        if(livros.length < 1)
-            throw new IllegalArgumentException("A lista precisa de pelo menos um livro");
-        else if (livros.length < 3)
-            throw new IllegalArgumentException("A lista precisa de no máximo três livros");
-        else
-            this.livros.addAll(Arrays.asList(livros));
+        if (livros.length < 1) throw new IllegalArgumentException("A lista precisa de pelo menos um livro");
+        else if (livros.length < 3) throw new IllegalArgumentException("A lista precisa de no máximo três livros");
+        else this.livros.addAll(Arrays.asList(livros));
     }
 }

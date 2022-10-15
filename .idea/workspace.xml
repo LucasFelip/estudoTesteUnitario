@@ -8,10 +8,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Update service EmprestimoLivro.java">
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 Update service EmprestimoLivro.java but is not end">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DataUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_21_01_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_21_01__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Emprestismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Emprestismo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Emprestismo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoLivro.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665280998337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LUC-20 Update service EmprestimoLivro.java but is not end">
+      <created>1665282149978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665282149978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +139,7 @@
     <MESSAGE value="Commit de projeto de Teste Unitario" />
     <MESSAGE value="LUC-20 Create package model&#10;Model Usuario, Emprestismo, Livro, create and structuring" />
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Update service EmprestimoLivro.java" />
+    <MESSAGE value="LUC-20 Update service EmprestimoLivro.java but is not end" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 Update service EmprestimoLivro.java but is not end" />
   </component>
 </project>

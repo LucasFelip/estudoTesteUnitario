@@ -8,7 +8,7 @@ public class Livro {
     private String titulo;
     private boolean emprestado;
     private boolean reservado;
-    private List<Emprestismo> historico;
+    private List<Emprestimo> historico;
 
     public String getAutor() {
         return autor;
@@ -42,11 +42,11 @@ public class Livro {
         this.reservado = reservado;
     }
 
-    public List<Emprestismo> getHistorico() {
+    public List<Emprestimo> getHistorico() {
         return historico;
     }
 
-    public void setHistorico(List<Emprestismo> historico) {
+    public void setHistorico(List<Emprestimo> historico) {
         this.historico = historico;
     }
 
@@ -58,9 +58,9 @@ public class Livro {
         return this.isEmprestado();
     }
 
-    public List<Emprestismo> consultarEmprestimosPorUsuario(Usuario usuario) {
-        List<Emprestismo> emprestismosPorUsuario = new ArrayList<Emprestismo>();
-        for (Emprestismo emprestismoUsuario : emprestismosPorUsuario) {
+    public List<Emprestimo> consultarEmprestimosPorUsuario(Usuario usuario) {
+        List<Emprestimo> emprestismosPorUsuario = new ArrayList<Emprestimo>();
+        for (Emprestimo emprestismoUsuario : emprestismosPorUsuario) {
             if (emprestismoUsuario.getUsuario().equals(usuario)) {
                 emprestismosPorUsuario.add(emprestismoUsuario);
             }
