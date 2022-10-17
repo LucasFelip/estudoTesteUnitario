@@ -11,7 +11,7 @@ class UsuarioTest {
         Usuario usuario = UsuarioBuilder
                 .umUsuario()
                 .construi();
-        assertEquals(false,usuario.isEmDebito());
+        assertFalse(usuario.isEmDebito());
     }
 
 }

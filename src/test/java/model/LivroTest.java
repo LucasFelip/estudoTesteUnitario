@@ -1,5 +1,6 @@
 package model;
 
+import builder.EmprestimoBuilder;
 import builder.LivroBuilder;
 import builder.UsuarioBuilder;
 import org.junit.jupiter.api.Test;
@@ -30,8 +31,19 @@ class LivroTest {
         Usuario usuario = UsuarioBuilder
                 .umUsuario()
                 .construi();
+
+        Livro livro = LivroBuilder
+                .umLivro()
+                .construi();
+
+        Emprestimo emprestimo = EmprestimoBuilder
+                .umEmprestimo()
+                .emUsuario(usuario)
+                .emEmprestimoLivro(livro)
+                .construi();
+
         List<Emprestimo> historico = LivroBuilder.umLivro().buscarHistoricoPorUsuario(usuario);
         int resulSize = historico.size();
-        assertEquals(0,resulSize);
+        assertEquals(1,resulSize);
     }
 }

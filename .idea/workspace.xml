@@ -8,14 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 implement test for user and book">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2022_19_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2022_19_51__Changes_.xml" afterDir="false" />
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 implement test for emprestimoPorUsuario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/EmprestimoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EmprestimoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Emprestimo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/EmprestimoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/EmprestimoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/UsuarioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,12 +138,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsuarioTest.estaEmDebito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudoTesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.UsuarioTest" />
+      <option name="METHOD_NAME" value="estaEmDebito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LivroTest.emprestimoPorUsuario" />
+        <item itemvalue="JUnit.LivroTest.estaReservado" />
+        <item itemvalue="JUnit.UsuarioTest.estaEmDebito" />
         <item itemvalue="JUnit.LivroTest" />
         <item itemvalue="JUnit.LivroTest.estaEmprestado" />
-        <item itemvalue="JUnit.LivroTest.estaReservado" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665855732356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LUC-20 implement test for emprestimoPorUsuario">
+      <created>1666036587445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666036587445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +269,7 @@
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java but is not end" />
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java and create Utils for project" />
     <MESSAGE value="LUC-20 implements model and builder for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 implements model and builder for test" />
+    <MESSAGE value="LUC-20 implement test for emprestimoPorUsuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 implement test for emprestimoPorUsuario" />
   </component>
 </project>

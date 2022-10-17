@@ -30,7 +30,7 @@ public class LivroBuilder {
         return this;
     }
 
-    public LivroBuilder taReservaod() {
+    public LivroBuilder taReservado() {
         this.livro.setReservado(true);
         return this;
     }
