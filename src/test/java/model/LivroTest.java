@@ -1,7 +1,10 @@
 package model;
 
 import builder.LivroBuilder;
+import builder.UsuarioBuilder;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +14,7 @@ class LivroTest {
         Livro livro = LivroBuilder
                 .umLivro()
                 .construi();
-        assertEquals(false, livro.isReservado());
+        assertFalse(livro.isReservado());
     }
 
     @Test
@@ -19,6 +22,16 @@ class LivroTest {
         Livro livro = LivroBuilder
                 .umLivro()
                 .construi();
-        assertEquals(false,livro.isEmprestado());
+        assertFalse(livro.isEmprestado());
+    }
+
+    @Test
+    void emprestimoPorUsuario() {
+        Usuario usuario = UsuarioBuilder
+                .umUsuario()
+                .construi();
+        List<Emprestimo> historico = LivroBuilder.umLivro().buscarHistoricoPorUsuario(usuario);
+        int resulSize = historico.size();
+        assertEquals(0,resulSize);
     }
 }

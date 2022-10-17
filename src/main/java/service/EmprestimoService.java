@@ -4,8 +4,10 @@ import model.Livro;
 import model.Emprestimo;
 import model.Usuario;
 
+import javax.swing.plaf.BorderUIResource;
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.List;
 
 public class EmprestimoService {
     public Emprestimo alugarLivro(Usuario usuario, Livro... livros) {
@@ -22,6 +24,13 @@ public class EmprestimoService {
 
         return Emprestimo;
     }
+
+//    public double devolverLivro(Usuario usuario, Livro... livros) {
+//
+//        Arrays.stream(livros).forEach(livro -> {
+//            livro.consultarEmprestimosPorUsuario(usuario);
+//        });
+//    }
 
     private double calculaValorLocacao(Livro... livros) {
         double valorTotal = 0, valorLivro = 5;
