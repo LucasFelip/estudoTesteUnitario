@@ -1,5 +1,7 @@
 package builder;
 
+import model.Emprestimo;
+import model.Livro;
 import model.Usuario;
 
 public class UsuarioBuilder {

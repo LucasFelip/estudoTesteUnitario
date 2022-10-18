@@ -1,11 +1,7 @@
 package model;
 
-import builder.EmprestimoBuilder;
 import builder.LivroBuilder;
-import builder.UsuarioBuilder;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -24,26 +20,5 @@ class LivroTest {
                 .umLivro()
                 .construi();
         assertFalse(livro.isEmprestado());
-    }
-
-    @Test
-    void emprestimoPorUsuario() {
-        Usuario usuario = UsuarioBuilder
-                .umUsuario()
-                .construi();
-
-        Livro livro = LivroBuilder
-                .umLivro()
-                .construi();
-
-        Emprestimo emprestimo = EmprestimoBuilder
-                .umEmprestimo()
-                .emUsuario(usuario)
-                .emEmprestimoLivro(livro)
-                .construi();
-
-        List<Emprestimo> historico = LivroBuilder.umLivro().buscarHistoricoPorUsuario(usuario);
-        int resulSize = historico.size();
-        assertEquals(1,resulSize);
     }
 }

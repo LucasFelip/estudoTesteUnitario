@@ -50,8 +50,21 @@ public class Emprestimo {
     }
 
     public void adiciona(Livro... livros) {
-        if (livros.length < 1) throw new IllegalArgumentException("A lista precisa de pelo menos um livro");
-        else if (livros.length > 3) throw new IllegalArgumentException("A lista precisa de no máximo três livros");
-        else this.livros.addAll(Arrays.asList(livros));
+        if (livros.length < 1)
+            throw new IllegalArgumentException("A lista precisa de pelo menos um livro");
+        else if (livros.length > 3)
+            throw new IllegalArgumentException("A lista precisa de no máximo três livros");
+        else
+            this.livros.addAll(Arrays.asList(livros));
+    }
+
+    public List<Emprestimo> consultarEmprestimosPorUsuario(Usuario usuario) {
+        List<Emprestimo> emprestismosPorUsuario = new ArrayList<Emprestimo>(); // ERROR: Cannot find local variable 'emprestimo'
+        for (Emprestimo emprestismoUsuario : emprestismosPorUsuario) {
+            if (emprestismoUsuario.getUsuario().equals(usuario)) {
+                emprestismosPorUsuario.add(emprestismoUsuario);
+            }
+        }
+        return emprestismosPorUsuario;
     }
 }

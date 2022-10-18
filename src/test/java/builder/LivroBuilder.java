@@ -35,11 +35,6 @@ public class LivroBuilder {
         return this;
     }
 
-    public List<Emprestimo> buscarHistoricoPorUsuario(Usuario usuario) {
-        List<Emprestimo> emprestimos = this.livro.consultarEmprestimosPorUsuario(usuario);
-        return emprestimos;
-    }
-
     public Livro construi() {
         return this.livro;
     }

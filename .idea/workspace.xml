@@ -8,12 +8,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 implement test for emprestimoPorUsuario">
+    <list default="true" id="e11d82a2-9eff-4608-99c6-2399a9c969ad" name="Changes" comment="LUC-20 dev test for result">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Emprestimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/EmprestimoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/EmprestimoBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/LivroBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/UsuarioBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/UsuarioBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LivroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/UsuarioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/IdeaProjects/estudoTesteUnitario&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/IdeaProjects/estudoTesteUnitario/src/main/java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -70,11 +73,33 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\IdeaProjects\estudoTesteUnitario\src\main\java\" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\IdeaProjects\estudoTesteUnitario\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LivroTest.emprestimoPorUsuario">
+  <component name="RunManager" selected="JUnit.EmprestimoTest.emprestimoPorUsuario">
+    <configuration name="EmprestimoTest.emprestimoPorUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudoTesteUnitario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.EmprestimoTest" />
+      <option name="METHOD_NAME" value="emprestimoPorUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LivroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudoTesteUnitario" />
       <extension name="coverage">
@@ -101,22 +126,6 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.LivroTest" />
       <option name="METHOD_NAME" value="emprestimoPorUsuario" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LivroTest.estaEmprestado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudoTesteUnitario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.LivroTest" />
-      <option name="METHOD_NAME" value="estaEmprestado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmprestimoTest.emprestimoPorUsuario" />
         <item itemvalue="JUnit.LivroTest.emprestimoPorUsuario" />
         <item itemvalue="JUnit.LivroTest.estaReservado" />
         <item itemvalue="JUnit.UsuarioTest.estaEmDebito" />
         <item itemvalue="JUnit.LivroTest" />
-        <item itemvalue="JUnit.LivroTest.estaEmprestado" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666036587445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LUC-20 dev test for result">
+      <created>1666038469649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666038469649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +286,38 @@
     <MESSAGE value="LUC-20 Update service EmprestimoLivro.java and create Utils for project" />
     <MESSAGE value="LUC-20 implements model and builder for test" />
     <MESSAGE value="LUC-20 implement test for emprestimoPorUsuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 implement test for emprestimoPorUsuario" />
+    <MESSAGE value="LUC-20 dev test for result" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-20 dev test for result" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/model/LivroTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/model/EmprestimoTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/model/Emprestimo.java</url>
+          <line>60</line>
+          <properties class="model.Emprestimo" method="consultarEmprestimosPorUsuario">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="emprestimo" />
+        <watch expression="emprestimo" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

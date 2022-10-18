@@ -58,13 +58,4 @@ public class Livro {
         return this.isEmprestado();
     }
 
-    public List<Emprestimo> consultarEmprestimosPorUsuario(Usuario usuario) {
-        List<Emprestimo> emprestismosPorUsuario = new ArrayList<Emprestimo>();
-        for (Emprestimo emprestismoUsuario : emprestismosPorUsuario) {
-            if (emprestismoUsuario.getUsuario().equals(usuario)) {
-                emprestismosPorUsuario.add(emprestismoUsuario);
-            }
-        }
-        return emprestismosPorUsuario;
-    }
 }

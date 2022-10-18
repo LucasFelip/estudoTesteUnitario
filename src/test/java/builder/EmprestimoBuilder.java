@@ -5,6 +5,7 @@ import model.Livro;
 import model.Usuario;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class EmprestimoBuilder {
     private Emprestimo emprestimo;
@@ -34,6 +35,11 @@ public class EmprestimoBuilder {
     public EmprestimoBuilder emEmprestimoLivro(Livro livroBuilder) {
         this.emprestimo.adiciona(livroBuilder);
         return this;
+    }
+
+    public List<Emprestimo> buscarHistoricoPorUsuario(Usuario usuario) {
+        List<Emprestimo> emprestimos = this.emprestimo.consultarEmprestimosPorUsuario(usuario);
+        return emprestimos;
     }
 
     public Emprestimo construi() {
